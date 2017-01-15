@@ -44,7 +44,7 @@ $( document ).ready(function()
             //    &markers=color:blue%7Clabel:B%7C40.754222,40.754222
             //    &markers=color:green%7Clabel:C%7C40.758663,-73.981329
             //    &key=YOUR_API_KEY
-            var map_url = "https://maps.googleapis.com/maps/api/staticmap?zoom=16&size=2000x2000&markers=color:red%7Clabel:A%7C40.752769,-73.979189&markers=color:blue%7Clabel:B%7C40.754222,-73.984569&markers=color:green%7Clabel:C%7C40.758663,-73.981329&key=AIzaSyDpyQfHC4Vv9jLKe7RH6MGTtY8xRiEcpYU";
+            var map_url = "https://maps.googleapis.com/maps/api/staticmap?zoom=16&size=2000x2000&markers=color:red%7Clabel:A%7C"+stop1co+"&markers=color:blue%7Clabel:B%7C"+stop2co+"&markers=color:green%7Clabel:C%7C"+stop3co+"&key=AIzaSyDpyQfHC4Vv9jLKe7RH6MGTtY8xRiEcpYU";
             
             // 5. Display the map on the HTML
                 $("#map").append("<img src=" + map_url + ">");
